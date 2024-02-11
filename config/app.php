@@ -214,6 +214,6 @@ return [
     //     // 'ExampleClass' => App\Example\ExampleClass::class,
     //     'InterventionImage' => \Intervention\Image\Facades\Image::class
     // ])->toArray(),
-    'aliases' => Facade::defaultAliases()->merge([ 'InterventionImage' => Intervention\Image\ImageManagerStatic::class,  ])->toArray(),
+    'aliases' => Facade::defaultAliases()->merge([ 'InterventionImage' => Intervention\Image\Facades\Image::class,  ])->toArray(),
 
 ];

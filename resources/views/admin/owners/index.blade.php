@@ -56,7 +56,13 @@
                                         >
                                             @csrf
                                             @method('delete')
-                                            <a href="#" data-id="{{ $owner->id }}" onclick="deletePost(this)" class="text-white bg-red-400 border-0 py-2 px-4 focus:outline-none hover:bg-red-500 rounded">削除</a>
+                                            <a
+                                                href="#"
+                                                data-id="{{ $owner->id }}"
+                                                onclick="deletePost(this)"
+                                                class="text-white bg-red-400 border-0 py-2 px-4 focus:outline-none hover:bg-red-500 rounded">
+                                                削除
+                                            </a>
                                         </form>
                                             {{-- <a href=“#” data-id="{{ $owner->id }}" onclick="deletePost(this)" >削除</a> --}}
                                         </td>
